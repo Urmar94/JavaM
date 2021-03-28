@@ -9,4 +9,13 @@ public class Phon {
         this.name = name;
         this.lastName = lastName;
     }
+
+    @Override
+    public String toString() {
+        return "Phon{" +
+                "number='" + number + '\'' +
+                ", name='" + name + '\'' +
+                ", lastName='" + lastName + '\'' +
+                '}';
+    }
 }

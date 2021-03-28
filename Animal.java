@@ -45,4 +45,14 @@ public class Animal {
             System.out.println("Dzięki! Moja waga:" + this.weight);
         }
     }
+
+    @Override
+    public String toString() {
+        return "Animal{" +
+                "name='" + name + '\'' +
+                ", from='" + from + '\'' +
+                ", species='" + species + '\'' +
+                ", weight=" + weight +
+                '}';
+    }
 }
